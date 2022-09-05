@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(180deg, #EEAECA 0%, #94BBE9 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+header h1{
+    color:#D0F2FF;
+    font-size: 60px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header img{
+    width: 5%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+main{
+    background: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(149, 149, 149, 0.5);
+    border-radius: 40px;
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width:50%;
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    margin:auto;
+}
+
+form h2{
+    color: white;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+}
+
+form label{
+    color: white;
+    font-size: 20px;
+    text-align: left;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.inserir{
+    background: rgba(217, 217, 217, 0.1);
+    border: 3px solid #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    margin-bottom: 10%;
+    padding: 20px;
+}
+
+#login{
+    background: radial-gradient(100% 4091.59% at 100% 13.79%, rgba(245, 167, 214, 0.5) 0%, rgba(196, 177, 224, 0.5) 50%, rgba(148, 187, 233, 0.5) 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+    border-radius: 20px;
+    border: none;
+    padding: 20px;
+    color:white;
+}
+
+#login:hover{
+    background: radial-gradient(0% 4091.59% at 100% 13.79%, rgb(245, 167, 214) 0%, rgba(196, 177, 224, 0.5) 50%, rgb(148, 188, 233) 100%);
+    cursor:pointer;
+    transition: 5s;
+}
+
+#login:active{
+    background: radial-gradient(100% 4091.59% at 100% 13.79%, rgb(245, 167, 214) 100%, rgba(196, 177, 224, 0.5) 50%, rgb(148, 188, 233) 0%);
+}
+
+.lock{
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 30px;
+}
+
+.lock img{
+    width: 30%;
+    padding: 50% 1%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+
